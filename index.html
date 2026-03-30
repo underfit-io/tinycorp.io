@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>tinycorp — Conduit, The Control Layer for AI Agents</title>
+  <meta name="description" content="Monitor, enforce, and secure every agent action across tools and environments." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="#">tinycorp</a>
+    <ul class="nav-links">
+      <li><a href="#how-it-works">How it Works</a></li>
+      <li><a href="#capabilities">Capabilities</a></li>
+      <li><a href="#product">Product</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-moon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z"/>
+        </svg>
+        <svg class="icon-sun" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1"  x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22"  x2="5.64" y2="5.64"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1"  y1="12" x2="3"  y2="12"/>
+          <line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22"  y1="19.78" x2="5.64"  y2="18.36"/>
+          <line x1="18.36" y1="5.64"  x2="19.78" y2="4.22"/>
+        </svg>
+      </button>
+      <button class="btn-primary">Request Access</button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-eyebrow"><span class="dot-live"></span>Now in early access</div>
+    <h1>The Control Layer<br>for AI Agents</h1>
+    <p>Monitor, enforce, and secure every agent action across tools and environments.</p>
+    <div class="hero-buttons">
+      <button class="btn-secondary">View Demo</button>
+    </div>
+
+    <div class="demo-wrapper">
+      <div class="demo-window">
+        <div class="demo-titlebar">
+          <span class="traffic-dot traffic-red"></span>
+          <span class="traffic-dot traffic-yellow"></span>
+          <span class="traffic-dot traffic-green"></span>
+        </div>
+        <div class="demo-content">
+          <div class="demo-card">
+            <div class="demo-icon">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+                <path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+              </svg>
+            </div>
+            <div class="demo-label">Actions Approved</div>
+            <div class="demo-value">14,302</div>
+            <div class="demo-bar"><div class="demo-bar-fill" style="width:78%"></div></div>
+          </div>
+          <div class="demo-card">
+            <div class="demo-icon">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+                <path d="M12 9v4m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+              </svg>
+            </div>
+            <div class="demo-label">Blocked</div>
+            <div class="demo-value">247</div>
+            <div class="demo-bar"><div class="demo-bar-fill" style="width:22%"></div></div>
+          </div>
+          <div class="demo-card">
+            <div class="demo-icon">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6v6l4 2"/>
+              </svg>
+            </div>
+            <div class="demo-label">Avg Latency</div>
+            <div class="demo-value">3ms</div>
+            <div class="demo-bar"><div class="demo-bar-fill" style="width:10%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GATEWAY DESCRIPTION -->
+  <div class="section gateway-section">
+    <p class="gateway-lead">Conduit sits between AI agents and the actions they attempt, acting as a real-time gateway: intercepting requests, evaluating policy, and monitoring outcomes.</p>
+    <p class="gateway-sub">Visualize every API call or tool invocation as a controllable checkpoint.</p>
+  </div>
+
+  <!-- PROBLEM -->
+  <div class="section problem-section">
+    <div class="problem-inner">
+      <div class="section-eyebrow">The problem</div>
+      <h2 class="section-title">Chaos below<br>the surface.</h2>
+      <ul class="problem-list">
+        <li>No visibility into agent behavior</li>
+        <li>Unrestricted tool access</li>
+        <li>No audit trail</li>
+        <li>Security is a risk, not an inconvenience</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats-section">
+    <div class="stats-inner">
+      <div class="stat">
+        <div class="stat-year">2026</div>
+        <div class="stat-label">Autonomous agents explode</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-num">94%</div>
+        <div class="stat-label">of teams lack audit trails</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-num">42k</div>
+        <div class="stat-label">new agent tool integrations</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HOW IT WORKS -->
+  <div class="section" id="how-it-works">
+    <div class="section-eyebrow">How it Works</div>
+    <h2 class="section-title">A gateway at every<br>agent action.</h2>
+    <p class="section-sub">Every tool call passes through Conduit before execution — evaluated, logged, and enforced against your policies in real time.</p>
+    <div class="steps">
+      <div class="step">
+        <span class="step-num">01</span>
+        <div>
+          <div class="step-title">Intercept &amp; enforce</div>
+          <div class="step-desc">Conduit intercepts all agent actions, enforces your policies in real time, and traces every request — before anything reaches your tools.</div>
+        </div>
+      </div>
+      <div class="step">
+        <span class="step-num">02</span>
+        <div>
+          <div class="step-title">Observe &amp; analyze</div>
+          <div class="step-desc">Granular observability into agent flows, tool call patterns, and policy violations — so you always know what your agents are doing and why.</div>
+        </div>
+      </div>
+      <div class="step">
+        <span class="step-num">03</span>
+        <div>
+          <div class="step-title">Audit and control</div>
+          <div class="step-desc">Full logs, deep insights, and cross-environment request control. Compliance and forensics built in from day one.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CAPABILITIES -->
+  <div class="section" id="capabilities">
+    <div class="section-eyebrow">Capabilities</div>
+    <h2 class="section-title">Everything you need to run agents safely.</h2>
+    <p class="section-sub">Built for AI-first teams. Designed for production use. Security-first, always.</p>
+    <div class="feature-grid">
+      <div class="feature-cell">
+        <div class="feature-icon">⚡</div>
+        <div class="feature-name">Real-time observability</div>
+        <div class="feature-desc">Tool calls and agent actions visible across your entire stack — no blind spots.</div>
+      </div>
+      <div class="feature-cell">
+        <div class="feature-icon">🛡️</div>
+        <div class="feature-name">Guardrails engine</div>
+        <div class="feature-desc">Policy definition and enforcement with fine-grained logic for any tool, environment, or agent role.</div>
+      </div>
+      <div class="feature-cell">
+        <div class="feature-icon">🗂️</div>
+        <div class="feature-name">Audit and control</div>
+        <div class="feature-desc">Full logs, insights, and cross-environment request control for compliance and forensics.</div>
+      </div>
+      <div class="feature-cell">
+        <div class="feature-icon">🔍</div>
+        <div class="feature-name">Flow analysis</div>
+        <div class="feature-desc">Understand how agents move through tools and environments with end-to-end flow tracing.</div>
+      </div>
+      <div class="feature-cell">
+        <div class="feature-icon">🚨</div>
+        <div class="feature-name">Violation detection</div>
+        <div class="feature-desc">Catch policy violations and anomalous behavior the moment they occur — not after the fact.</div>
+      </div>
+      <div class="feature-cell">
+        <div class="feature-icon">🧩</div>
+        <div class="feature-name">Integrations</div>
+        <div class="feature-desc">Works with LangChain, AutoGen, CrewAI, and any custom agent framework out of the box.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <div class="cta-section" id="product">
+    <div class="cta-inner">
+      <h2>Start controlling.<br><span class="cta-accent">Your AI stack.</span></h2>
+      <p>Built for AI-first teams. Designed for production use. Security-first, always.</p>
+      <form class="email-form" onsubmit="return false;">
+        <input type="email" placeholder="Enter your email" class="email-input" />
+        <button type="submit" class="btn-primary">Request Access</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">tinycorp</div>
+    <div>© 2026 tinycorp. All rights reserved.</div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "name": "tinycorp.io",
+  "version": "1.0.0",
+  "description": "tinycorp — The Control Layer for AI Agents",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/underfit-io/tinycorp.io.git"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^8.0.3"
+  }
+}
