@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conduit — Product by tinycorp</title>
+  <meta name="description" content="Conduit is tinycorp's product for enforcing policy, observability, and auditability across AI agent actions." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav>
+    <a class="nav-logo" href="/">tinycorp</a>
+    <ul class="nav-links">
+      <li><a href="#problem">Problem</a></li>
+      <li><a href="#how-it-works">How it Works</a></li>
+      <li><a href="#capabilities">Capabilities</a></li>
+    </ul>
+    <div class="nav-right">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+        <svg class="icon-moon" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path d="M21 12.79A9 9 0 1111.21 3a7 7 0 009.79 9.79z"/>
+        </svg>
+        <svg class="icon-sun" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <circle cx="12" cy="12" r="5"/>
+          <line x1="12" y1="1"  x2="12" y2="3"/>
+          <line x1="12" y1="21" x2="12" y2="23"/>
+          <line x1="4.22" y1="4.22"  x2="5.64" y2="5.64"/>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+          <line x1="1"  y1="12" x2="3"  y2="12"/>
+          <line x1="21" y1="12" x2="23" y2="12"/>
+          <line x1="4.22"  y1="19.78" x2="5.64"  y2="18.36"/>
+          <line x1="18.36" y1="5.64"  x2="19.78" y2="4.22"/>
+        </svg>
+      </button>
+      <a class="btn-primary" href="#contact">Request Access</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-eyebrow"><span class="dot-live"></span>Product page: Conduit by tinycorp</div>
+    <h1>Control every AI agent<br>action in real time.</h1>
+    <p>Conduit is tinycorp's flagship product, built to intercept agent actions before execution and enforce policy with full runtime traceability.</p>
+    <div class="hero-buttons">
+      <a class="btn-secondary" href="#how-it-works">How Conduit works</a>
+      <a class="btn-primary" href="#contact">Request access</a>
+    </div>
+
+    <div class="demo-wrapper">
+      <div class="demo-window">
+        <div class="demo-titlebar">
+          <span class="traffic-dot traffic-red"></span>
+          <span class="traffic-dot traffic-yellow"></span>
+          <span class="traffic-dot traffic-green"></span>
+        </div>
+        <div class="demo-content">
+          <div class="demo-card">
+            <div class="demo-icon">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+                <path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"/>
+              </svg>
+            </div>
+            <div class="demo-label">Organizations using AI in at least one function</div>
+            <div class="demo-value">78%</div>
+            <div class="demo-bar"><div class="demo-bar-fill" style="width:78%"></div></div>
+          </div>
+          <div class="demo-card">
+            <div class="demo-icon">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+                <path d="M12 9v4m0 4h.01M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/>
+              </svg>
+            </div>
+            <div class="demo-label">Organizations regularly using gen AI</div>
+            <div class="demo-value">71%</div>
+            <div class="demo-bar"><div class="demo-bar-fill" style="width:71%"></div></div>
+          </div>
+          <div class="demo-card">
+            <div class="demo-icon">
+              <svg width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6v6l4 2"/>
+              </svg>
+            </div>
+            <div class="demo-label">No tangible enterprise EBIT impact yet</div>
+            <div class="demo-value">&gt;80%</div>
+            <div class="demo-bar"><div class="demo-bar-fill" style="width:84%"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section gateway-section">
+    <p class="gateway-lead">Conduit inserts a control decision point between autonomous intent and system execution.</p>
+    <p class="gateway-sub">Each API call or tool invocation is evaluated against policy and recorded with complete context.</p>
+  </div>
+
+  <div class="section problem-section" id="problem">
+    <div class="problem-inner">
+      <div class="section-eyebrow">The problem</div>
+      <h2 class="section-title">Agents can be exploited.<br>Visibility is limited.</h2>
+      <ul class="problem-list">
+        <li>Prompt injection can coerce agents into unsafe write or delete operations</li>
+        <li>Privilege sprawl causes agents to access systems beyond intended scope</li>
+        <li>Most teams cannot reconstruct decision lineage after incidents</li>
+        <li>Audit coverage fragments across frameworks, tools, and environments</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="stats-section">
+    <div class="stats-inner">
+      <div class="stat">
+        <div class="stat-num">27%</div>
+        <div class="stat-label">say employees review all gen-AI outputs before use</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-num">13%</div>
+        <div class="stat-label">report hiring AI compliance specialists</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat">
+        <div class="stat-num">6%</div>
+        <div class="stat-label">report hiring AI ethics specialists</div>
+      </div>
+    </div>
+    <div class="stats-source">Source: McKinsey, "The state of AI: How organizations are rewiring to capture value" (March 12, 2025), survey of 1,491 participants across 101 nations. <a href="https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-how-organizations-are-rewiring-to-capture-value" target="_blank" rel="noopener noreferrer">View report</a></div>
+  </div>
+
+  <div class="section">
+    <div class="section-eyebrow">Risk scenarios</div>
+    <h2 class="section-title">Where Conduit protects<br>real workflows.</h2>
+    <p class="section-sub">Conduit is designed for practical risk boundaries where a single unsafe agent action can create outsized impact.</p>
+    <div class="steps">
+      <div class="step">
+        <span class="step-num">A</span>
+        <div>
+          <div class="step-title">Data exfiltration attempt</div>
+          <div class="step-desc">An agent attempts to export sensitive records after manipulated context. Conduit blocks the action and logs evidence.</div>
+        </div>
+      </div>
+      <div class="step">
+        <span class="step-num">B</span>
+        <div>
+          <div class="step-title">Over-privileged operation</div>
+          <div class="step-desc">A workflow requests elevated infrastructure mutations outside policy boundaries. Conduit denies execution by role and environment.</div>
+        </div>
+      </div>
+      <div class="step">
+        <span class="step-num">C</span>
+        <div>
+          <div class="step-title">Compliance evidence request</div>
+          <div class="step-desc">Investigators need proof of decision history. Conduit provides traceable lineage of every decision and policy outcome.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="how-it-works">
+    <div class="section-eyebrow">How it Works</div>
+    <h2 class="section-title">A checkpoint at every<br>agent decision point.</h2>
+    <p class="section-sub">Conduit intercepts each action, evaluates policy against runtime context, and records a complete execution trail before your systems are touched.</p>
+    <div class="steps">
+      <div class="step">
+        <span class="step-num">01</span>
+        <div>
+          <div class="step-title">Intercept</div>
+          <div class="step-desc">Conduit captures every action request with identity, tool context, and runtime metadata before execution.</div>
+        </div>
+      </div>
+      <div class="step">
+        <span class="step-num">02</span>
+        <div>
+          <div class="step-title">Evaluate and enforce</div>
+          <div class="step-desc">Policy engines evaluate authorization, risk, and constraints, then allow, deny, or condition requests in milliseconds.</div>
+        </div>
+      </div>
+      <div class="step">
+        <span class="step-num">03</span>
+        <div>
+          <div class="step-title">Observe and audit</div>
+          <div class="step-desc">Every decision is recorded with lineage and outcome for investigation, compliance evidence, and governance tuning.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section" id="capabilities">
+    <div class="section-eyebrow">Capabilities</div>
+    <h2 class="section-title">Production controls for autonomous systems.</h2>
+    <p class="section-sub">Designed for teams deploying agents in real workflows where risk, compliance, and reliability matter.</p>
+    <div class="feature-grid">
+      <div class="feature-cell">
+        <div class="feature-icon">🔍</div>
+        <div class="feature-name">Full observability</div>
+        <div class="feature-desc">See every agent action, including tool arguments, response traces, and policy outcomes.</div>
+      </div>
+      <div class="feature-cell">
+        <div class="feature-icon">🛡️</div>
+        <div class="feature-name">Policy guardrails</div>
+        <div class="feature-desc">Enforce nuanced controls per environment, team, and operation before actions execute.</div>
+      </div>
+      <div class="feature-cell">
+        <div class="feature-icon">🗂️</div>
+        <div class="feature-name">Audit-ready records</div>
+        <div class="feature-desc">Build complete, explainable timelines of autonomous behavior for compliance and forensics.</div>
+      </div>
+      <div class="feature-cell">
+        <div class="feature-icon">🚨</div>
+        <div class="feature-name">Anomaly detection</div>
+        <div class="feature-desc">Identify suspicious action patterns and policy drift before incidents escalate.</div>
+      </div>
+      <div class="feature-cell">
+        <div class="feature-icon">🧩</div>
+        <div class="feature-name">Framework support</div>
+        <div class="feature-desc">Integrates with modern agent orchestration frameworks and bespoke internal runtimes.</div>
+      </div>
+      <div class="feature-cell">
+        <div class="feature-icon">⚡</div>
+        <div class="feature-name">Low-latency control plane</div>
+        <div class="feature-desc">Policy checks execute in milliseconds so governance does not slow product velocity.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="cta-section" id="contact">
+    <div class="cta-inner">
+      <h2>Ready to adopt Conduit?<br><span class="cta-accent">Request product access.</span></h2>
+      <p>Share your stack, risk model, and deployment goals. We will help define a safe rollout path for your agent workflows.</p>
+      <form class="email-form" action="mailto:hello@tinycorp.io?subject=Conduit%20Access%20Request" method="post" enctype="text/plain">
+        <input type="email" name="email" placeholder="Enter your email" class="email-input" required />
+        <button type="submit" class="btn-primary">Request Access</button>
+      </form>
+      <div class="hero-buttons" style="margin-top:20px;">
+        <a class="btn-secondary" href="/">Back to Tinycorp</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-logo">tinycorp</div>
+    <div>© 2026 tinycorp. All rights reserved.</div>
+  </footer>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
