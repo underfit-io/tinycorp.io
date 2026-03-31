@@ -140,6 +140,10 @@ nav {
   cursor: pointer;
   font-family: inherit;
   white-space: nowrap;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   transition: opacity var(--t), background var(--t), color var(--t);
 }
 
@@ -156,6 +160,10 @@ nav {
   cursor: pointer;
   font-family: inherit;
   white-space: nowrap;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   transition: border-color var(--t), background var(--t), color var(--t);
 }
 
@@ -579,6 +587,28 @@ footer {
   transition: background var(--t);
 }
 
+.stats-source {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 24px 24px;
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.stats-source a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--border);
+  text-underline-offset: 2px;
+  transition: color var(--t), text-decoration-color var(--t);
+}
+
+.stats-source a:hover {
+  color: var(--text-primary);
+  text-decoration-color: var(--border-hover);
+}
+
 /* ── EMAIL FORM ── */
 .email-form {
   display: flex;
@@ -607,6 +637,21 @@ footer {
 
 /* ── CTA ACCENT ── */
 .cta-accent { color: var(--text-secondary); }
+
+.products-teaser {
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 24px;
+  max-width: 620px;
+}
+
+.products-teaser p {
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.65;
+  margin-bottom: 18px;
+}
 
 /* ── RESPONSIVE ── */
 @media (max-width: 680px) {
